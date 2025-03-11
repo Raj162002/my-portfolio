@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { useState } from 'react';
 
 export default function HeroSection() {
-	const [selectedStack, setSelectedStack] = useState<'frontend' | 'backend' | 'devops' | null>(null);
+	
 
 	return (
 		<section className="min-h-screen relative overflow-hidden py-24 md:py-0">
